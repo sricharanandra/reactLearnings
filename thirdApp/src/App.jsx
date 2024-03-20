@@ -7,7 +7,7 @@ function App(){
                     {id: 3, name:"pineapple",calories: 40}, 
                     {id: 4, name:"kiwi",calories: 20}, 
                     {id: 5, name:"mango",calories: 110}];
-    
+
     const vegetables = [{id: 6, name: "potatoes", calories: 100}, 
                     {id: 7, name:"okra",calories: 145}, 
                     {id: 8, name:"Beans",calories: 40}, 
@@ -16,8 +16,8 @@ function App(){
     return(
         <>  
             <UserGreeting isLoggedIn={true} username="Sreus"/>
-            <List items={fruits} category = "Fruits"/>
-            <List items={vegetables} category="Vegetables"/>
+            {fruits.length > 0 && <List items={fruits} category = "Fruits"/>}
+            {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>}
         </>
     );
 }

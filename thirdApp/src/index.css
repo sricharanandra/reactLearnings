@@ -15,3 +15,24 @@
     border-radius: 20px;
     margin:0px;
 }
+
+.list-category {
+    text-align: center;
+    font-size: 2.5em bold;
+    color: hsl(0, 0%, 30%);
+    border: 2px bold;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+.list-items li {
+    text-align: center;
+    list-style: none;
+    color: black;
+
+}
+
+.list-items li:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 90%);
+}
