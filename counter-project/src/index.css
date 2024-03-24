@@ -1,0 +1,27 @@
+
+.counter { 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+
+.countDisplay {
+    padding-top: 300px;
+    font-size: 5rem;
+    margin-top: 0;
+    color: black;
+}
+
+.button {
+    background-color:black;
+    color: white;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color:hsl(0, 0%, 40%);
+}
